@@ -1,13 +1,13 @@
 # EstudoDIO
 
-Bem-vindo ao repositório **EstudoDIO**! 🎓  
+Welcome to the **EstudoDIO** repository! 🎓
 
-Aqui você encontrará todos os projetos, desafios e tarefas que desenvolvi como parte dos meus estudos na plataforma [DIO](https://www.dio.me/).  
+Here you will find all the projects, challenges, and tasks I have developed as part of my studies on the [DIO](https://www.dio.me/) platform.
 
-## Objetivo
-Este repositório foi criado para:
-- Organizar e documentar meu aprendizado.
-- Compartilhar soluções e práticas recomendadas.
-- Facilitar revisões futuras.
+## Objective
+This repository was created to:
+- Organize and document my learning.
+- Share solutions and best practices.
+- Make future reviews easier.
 
-Sinta-se à vontade para explorar os conteúdos, sugerir melhorias ou compartilhar suas ideias! 🚀
+Feel free to explore the content, suggest improvements, or share your ideas! 🚀
