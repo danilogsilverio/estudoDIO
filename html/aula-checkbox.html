@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página</title>
+</head>
+<body style="display: flex; gap: 16px;">
+    <form action=""Define o caminho de onde as informações do formulário serão enviadas"" 
+            method="get" style="border: 1px solid gray; padding: 16px;">
+        <h2>Checkbox & Radio</h2>
+        <hr>
+        <h3>Você selecionou: Pizza de Calabresa</h3>
+        <h4>Quais opcionais você deseja?</p>
+            <input type="checkbox" name="opcional[]" value="queijo"> + Queijo <br>
+            <input type="checkbox" name="opcional[]" value="ovo"> + Ovo <br>
+            <input type="checkbox" name="opcional[]" value="bacon"> + Bacon <br>
+            <input type="checkbox" name="opcional[]" value="catupiry"> + Catupiry <br>
+        <h4>Deseja borda recheada?</h4>
+            <input type="radio" name="borda" value="sim"> Sim
+            <input type="radio" name="borda" value="nao"> Não
+        <h4>Selecione uma bebida:</h4>
+            <input type="radio" name="" value="suco"> Suco <br>
+            <input type="radio" name="" value="refrigerante"> Refrigerante <br>
+            <input type="radio" name="" value="agua"> Água <br>
+            <input type="radio" name="" value="nenhum"> Nenhum <br>
+        <button type="submit">Enviar pedido</button>
+    <hr>
+        <p> Método GET exibe o resultado direto pela URL</p>
+        <blockquote>Por mais que temos 4 possíveis escolhas de opcional, dessa maneira atribuindo somente name="opcional" o servidor não iria reconhecer como uma lista e sim como uma varíavel que trocou de valor 4 vezes.</blockquote>
+        <blockquote>Utilizar name="opcional[]" para enviar em lista.</blockquote>
+        <p>Método post envia as informações do submit ao servidor.</p>
+        <p>O atributo name serve para mostrar o relacionamento entre elementos.</p>
+        <blockquote>O atributo name em Checkbox mostra que todos pertencem ao grupo Opcional.</blockquote>
+    </form>
+    <form onsubmit=""colocar um evento"" method="get" style="border: 1px solid gray; padding: 16px;">
+        <h2>Button</h2>
+        <hr>
+        <label>Nome*: </label>
+        <input type="text"><br>
+        <label>Idade*: </label>
+        <input type="number"><br>
+        <label>Senha*: </label>
+        <input type="password"><br>
+        <button type="button">Clique</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+    </form>
+    <form onsubmit=""colocar um evento"" method="get" style="border: 1px solid gray; padding: 16px;">
+        <h2>Select</h2>
+        <hr>
+        <label>Nome*: </label>
+            <input type="text">
+        <br>
+        <label>Cargo*: </label>
+            <select name="role">
+                <option value="">Selecione o cargo</option>
+                <option value="uxdesigner">UX Designer</option>
+                <option value="uidesigner">UI Designer</option>
+                <option value="productdesigner">Product Designer</option>
+            </select>
+        <br>
+        <label>Assunto*: </label>
+            <input type="text">
+        <br>
+    </form>
+    <form onsubmit=""colocar um evento"" method="get" style="border: 1px solid gray; padding: 16px;">
+        <h2>Text area</h2>
+        <hr>
+        <label for="">Mensagem:</label>
+       <textarea rows="50" name="message" id=""></textarea>
+    </form>
+</body>
+</html>
