@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exemplo Completo de Tags HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Exemplo Completo de Tags HTML</h1>
+        <nav>
+            <a href="#conteudo-principal">Ir para o Conteúdo</a>
+            <a href="#rodape">Rodapé</a>
+        </nav>
+    </header>
+
+    <main id="conteudo-principal">
+        <section>
+            <h2>Sobre o HTML</h2>
+            <p>HTML (<abbr title="Hypertext Markup Language">HTML</abbr>) é a linguagem de marcação padrão para a criação de páginas da web.</p>
+            <blockquote>“HTML é a base da web moderna.”</blockquote>
+            <p>Por exemplo, para exibir código, usamos a tag <code>&lt;code&gt;</code>:</p>
+            <pre>console.log("Olá, mundo!");</pre>
+            <table border="1">
+                <caption>Tabela de Exemplos</caption>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;h1&gt;</td>
+                        <td>Usada para títulos principais</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>Define um parágrafo de texto</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Exemplo de rodapé da tabela</td>
+                    </tr>
+                </tfoot>
+        </section>
+
+        <section>
+            <h2>Lista de Recursos</h2>
+            <ul>
+                <li>Tags semânticas</li>
+                <li>Formulários</li>
+                <li>Imagens e Mídia</li>
+            </ul>
+            <p>Para tópicos ordenados:</p>
+            <ol>
+                <li>Estrutura</li>
+                <li>Texto</li>
+                <li>Interatividade</li>
+            </ol>
+        </section>
+
+        <article>
+            <h2>Artigo: A Evolução da Web</h2>
+            <p>Com o avanço das tecnologias, a web passou a integrar elementos como áudio e vídeo:</p>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+        </article>
+
+        <aside>
+            <h3>Dicas Úteis</h3>
+            <p>Use tags como <strong>strong</strong> para destaque importante ou <em>em</em> para ênfase.</p>
+        </aside>
+
+        <section>
+            <h2>Galeria de Imagens</h2>
+            <figure>
+                <img src="imagem.jpg" alt="Exemplo de imagem">
+                <figcaption>Descrição da imagem.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Formulário de Contato</h2>
+            <form action="/submit" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem"></textarea>
+                <label for="opcoes">Selecione uma opção:</label>
+                <select id="opcoes" name="opcao">
+                    <option>Opção 1</option>
+                    <option>Opção 2</option>
+                </select>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="rodape">
+        <p>© 2024 Exemplo Completo de Tags HTML</p>
+        <hr>
+        <p>Esse é o <span style="color: red;">Rodapé</span></p>
+    </footer>
+
+    <script>
+        console.log("Página carregada com sucesso!");
+    </script>
+</body>
+</html>
