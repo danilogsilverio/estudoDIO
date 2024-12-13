@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
     display: flex;
     align-items: center;
@@ -8,6 +10,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     background-color: #f4f4f4;
+    font-family: "Roboto", sans-serif;
 }
 
 main{
@@ -27,7 +30,6 @@ main header{
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    border-radius: 8px;
     border-bottom: 1px solid rgba(0,0,0,.14);
     background-color: #FFF;
 }
@@ -36,19 +38,48 @@ main header img {
     height: 70%;
 }
 
-main header ul {
+main header ul{
     display: flex;
+    list-style: none;
+    gap: 8px;
 }
 
-main section{
+main header li a {
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #6d6d6d;
+}
+
+main section {
     height: 100%;
     width: 100%;
-    background-color: aqua;
+    background-color: #fff;
 }
 
 main footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 64px;
+    padding: 0 16px;
     border-radius: 8px;
     border: 1px solid rgba(0,0,0,.14);
     background-color: #f4f4f4;
+}
+
+main footer p {
+    font-size: 12px;
+    color: #6d6d6d;
+}
+
+main footer button {
+    padding: 8px 16px;
+    border-radius: 24px;
+    border:1px solid rgb(170, 83, 2) ;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #db7a0b;
 }
