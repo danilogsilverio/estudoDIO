@@ -1,5 +1,8 @@
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+## Meu Projeto
+Resolução do desafio
+
+
+## Descrição do desafio - Módulo 02 - HTML I
 
 Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
 
