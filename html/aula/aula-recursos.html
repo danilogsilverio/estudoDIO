@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Recursos Especiais</title>
+    <meta name="description" content="Olá">
+</head>
+    <style>
+        kbd{
+            background-color: #f4f4f4;
+        }
+        code{
+            background-color: #f4f4f4;
+            color: red;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            color: red;
+        }
+    </style>
+<body>
+    <section>
+        <h2>Datalist</h2>
+        <input list="browsers" type="search" name="search">
+        <datalist id="browsers">
+            <option value="google">Google Chrome</option>
+            <option value="mozilla">Mozilla Firefox</option>
+            <option value="egde">Microsoft Egde</option>
+            <option value="safari">Safari</option>
+            <option value="opera">Opera</option>
+        </datalist>
+        <hr>
+    </section>
+    <section>
+        <h2>kbd, code  e pre</h2>
+        <p>Para copiar este texto, pressione <kbd>CTRL</kbd>+<kbd>C</kbd></p>
+        <p>Para trocar o fundo de um elemento, utilize o comando <code>background-color</code></p>
+        <p>Comando completo de alterar cor de fundo:</p>
+        <pre>
+            code {
+                background-color: #f4f4f4;
+                color: red;
+            }
+        </pre>
+        <hr>
+    </section>
+    <section>
+        <h2>Details e Summary</h2>
+        <details>
+            <summary>O details vem como padrão uma funcionadade de saiba mais</summary>
+            <p>É apertar o botão para expandir</p>
+        </details>
+        <hr>
+    </section>
+    <section>
+        <h2>Meter e progress</h2>
+        <meter value=""> A finalidade é uma métrica, um medidor com valores mais fixos.</meter>
+        <progress id="progress" max="100" min="0" value="0">
+                A finalidade é para medir o progresso
+        </progress>
+        <hr>
+    </section>
+</body>
+    <script>
+        let progress = document.getElementById("progress");
+        const interval = setInterval(() => {
+            progress.value += 10;
+            if (progress.value >= 100) {
+                alert("Carregamento realizado com sucesso")
+                clearInterval(interval)
+            }
+        }, 500)
+    </script>
+</html>
