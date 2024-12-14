@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med+</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="https://colegioecursoprw.com.br/wp-content/uploads/2022/09/MedMais.png" alt="Logo da cliníca Med+">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./atendimento.html">Atendimento</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="hero">
+                <h3>Entre em contato</h3>
+                <h1>Agende uma consulta</h1>
+                <fieldset>
+                    <form action="./contato.html" onsubmit="return showMessage()" method="post";">
+                        <div class="input">
+                            <label>Nome*: </label>
+                            <input type="text">
+                        </div>
+                        <div class="input">
+                            <label>E-mail*: </label>
+                            <input type="email">
+                        </div>
+                        <div class="input">
+                            <label>Assunto*: </label>
+                            <select name="subject" id="">
+                                <option value="">Selecione uma opção</option>
+                                <option value="clinicageral">Clínica geral</option>
+                                <option value="psicologia">Psicologia</option>
+                                <option value="pediatria">Pediatria</option>
+                                <option value="oftalmologia">Oftalmologia</option>
+                            </select>
+                        </div class="input">
+                        <div class="input">
+                            <label>Mensagem*: </label>
+                            <textarea></textarea>
+                        </div>
+                        <div class="form-btn">
+                            <button class="btn a--about fit-content" type="submit">Agendar</button>
+                            <button class="btn-secundary a--about fit-content" type="reset">Limpar</button>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+            <div class="img">
+                <img src="https://clinicagobbo.med.br/wp-content/uploads/2018/03/consulta-m%C3%A9dica.jpg" alt="Imagem de uma consulta na clínica médica Med+">
+                <img src="https://i0.wp.com/sanarmed.com/wp-content/uploads/2024/03/media-4062.jpg?fit=650%2C471&ssl=1" alt="Imagem de uma consulta na clínica médica Med+">
+        </div>
+        </section>
+        <footer>
+            <p>© 2024 Med+. Todos os direitos reservados.</p>
+        </footer>
+    </main>
+</body>
+<script>
+    function showMessage() {
+        alert('Mensagem enviada com sucesso!');
+        window.location.reload(); 
+        return false;
+    }
+</script>
+</html>

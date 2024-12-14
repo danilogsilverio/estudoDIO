@@ -32,19 +32,19 @@ No Menu, ficará localizado o menu de navegação (ah vá!), no Header de cada p
 
 ### Página Principal
 
-- Deve ter uma imagem no Header.
+- Deve ter uma imagem.
 - Em Content, uma breve descrição sobre a clínica.
 - Menu e Footer padrões em todas as páginas.
 
 ### Sobre a clínica
 
-- Deve ter uma imagem diferente no Header.
+- Deve ter uma imagem diferente.
 - Em Content, um texto falando sobre a clínica.
 - Menu e Footer padrões em todas as páginas.
 
 ### Horário de Atendimento
 
-- Deve ter uma imagem diferente no Header.
+- Deve ter uma imagem diferente.
 - Em Content, um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
 
 | Serviços        | Segunda a Sexta | Sábados | Feriados |
@@ -58,7 +58,7 @@ No Menu, ficará localizado o menu de navegação (ah vá!), no Header de cada p
 
 ### Contato
 
-- Deve ter uma imagem diferente no Header.
+- Deve ter uma imagem diferente.
 - Em Content deve ter:
   - Os telefones de contato (celular e WhatsApp)
   - Endereço completo da clínica
