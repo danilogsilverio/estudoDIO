@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+.d-flex{
+    display: flex;
+}
+
+.f-column{
+    flex-direction: column;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.gap-8{
+    gap: 8px;
+}
+
+.gap-16{
+    gap: 16px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+.logo-img{
+    width: 50px;
+    height: 50px;
+}
+
+.logo-wordmark{
+    height: 18px;
+    width: 120px;
+}
+
+.logo-tagline{
+    height: 13px;
+    width: 120px;
+}
