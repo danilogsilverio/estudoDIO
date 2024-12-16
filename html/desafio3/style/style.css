@@ -1,8 +1,18 @@
+:root{
+    --white: #fff;
+    --border: #72777d;
+    --black: #202122;
+    --bg: #f8f9fa;
+}
+
+
+/*----------------------------------------------------------------------------------------------*/
+
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f8f9fa;
+    background-color: var(--bg);
 }
 
 /*----------------------------------------------------------------------------------------------*/
@@ -31,7 +41,23 @@ body{
     gap: 16px;
 }
 
+.gap-24{
+    gap: 24px;
+}
+
 /*----------------------------------------------------------------------------------------------*/
+
+header{
+    background-color: var(--white);
+    height: 60px;
+    width: 100vw;
+    padding: 0 40px;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
 
 .logo-img{
     width: 50px;
@@ -46,4 +72,44 @@ body{
 .logo-tagline{
     height: 13px;
     width: 120px;
+}
+
+form{
+    position: relative;
+}
+
+form i {
+    position: absolute;
+    left: 8px;
+    color: var(--border);
+}
+
+form input {
+    height: 32px;
+    width: 300px;
+    padding: 4px 8px 4px 32px;
+    border: 1px solid var(--border);
+}
+
+form button{
+    height: 32px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid var(--border);
+    border-left: none;
+    padding: 0 12px;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    list-style: none;
 }
