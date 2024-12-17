@@ -289,6 +289,43 @@ main{
     padding: 0 16px;
 }
 
+.content-body section cite{
+    font-size: 14px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+.table-cell-bg{
+    background-color: #a0b0ff;
+}
+
+.table-cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 24px;
+    padding: 0;
+}
+
+.link-table {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.link-table:hover {
+    text-decoration: underline;
+    color: var(--blue-hover);
+}
+
+.table-txt{
+    font-size: 12px;
+    text-align: center;
+    color: var(--black);
+    margin: 0;
+}
 
 
 /*----------------------------------------------------------------------------------------------*/
