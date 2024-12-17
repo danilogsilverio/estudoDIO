@@ -52,6 +52,14 @@ body{
     gap: 24px;
 }
 
+.gap-40{
+    gap: 40px;
+}
+
+.fs-16{
+    font-size: 16px;
+}
+
 /*----------------------------------------------------------------------------------------------*/
 
 .header{
@@ -146,7 +154,7 @@ main{
     grid-template-columns: 200px 1fr;
     gap: 16px;
     padding: 40px; 
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--white);
 }
 
@@ -155,6 +163,20 @@ main{
     font-size: 14px;
     color: var(--black);
     font-weight: 500;
+}
+
+.link-title{
+    margin: 0;
+    font-size: 14px;
+    color: var(--black);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.link-title:hover {
+    text-decoration: underline;
+    color: var(--blue-hover);
+    cursor: pointer;
 }
 
 .nav header{
@@ -255,6 +277,16 @@ main{
     margin: 0;
     font-size: 16px;
     font-weight: 700;
+}
+
+.content-body section ul{
+    margin: 0;
+    padding: 0 16px;
+}
+
+.content-body section ol{
+    margin: 0;
+    padding: 0 16px;
 }
 
 
