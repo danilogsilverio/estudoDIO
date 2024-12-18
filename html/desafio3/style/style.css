@@ -289,6 +289,78 @@ main{
     padding: 0 16px;
 }
 
+.content-body section cite{
+    font-size: 14px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+.table-cell-bg{
+    background-color: #a0b0ff;
+}
+
+.table-cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 24px;
+    padding: 0;
+}
+
+.align-left{
+    justify-content: flex-start;
+}
+
+.table-cell-th{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    padding: 0;
+    color: var(--black);
+    font-size: 14px;
+}
+
+.link-table {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.link-table:hover {
+    text-decoration: underline;
+    color: var(--blue-hover);
+}
+
+.table-txt{
+    font-size: 12px;
+    text-align: center;
+    color: var(--black);
+    margin: 0;
+}
+
+.link-table-secundary{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.link-table-secundary:hover {
+    text-decoration: underline;
+}
+
+.link-red{
+    color: #a10116;
+    font-weight: 400;
+}
+
+.f-14{
+    font-size: 14px;
+}
 
 
 /*----------------------------------------------------------------------------------------------*/
@@ -304,3 +376,39 @@ footer{
 footer p{
     margin: 0;
 }
+
+/*----------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+   
+    main{
+        display: flex;
+    }
+
+    .nav{
+    display: none;
+   }
+
+   footer nav ul{
+    display: flex;
+    flex-direction: column;
+   }
+  }
+
+  @media only screen and (max-width: 500px) {
+   
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .nav{
+    display: none;
+   }
+
+   footer nav ul{
+    display: flex;
+    flex-direction: column;
+   }
+  }
+
