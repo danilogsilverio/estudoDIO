@@ -1,0 +1,48 @@
+h1{
+    padding: 8px;
+    background-color: #ddf1ff;
+}
+
+/*------------IMAGEM------------*/
+
+.d-flex{
+    display: flex;
+    gap: 8px;
+}
+
+.container-img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid blue;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+#fill{
+    object-fit: fill;    
+}
+
+#none{
+    object-fit: none;    
+}
+
+#contain{
+    object-fit: contain;    
+}
+
+#cover{
+    object-fit: cover;    
+}
+
+#scale-down{
+    object-fit: scale-down;
+}
+
+.img-position{
+    width: 100%;
+    height: 100%;
+    object-position: 10px 10px;
+}
