@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Aulas css</title>
+</head>
+<body>
+    <main>
+        <h1>Aula Imagem</h1>
+        <h2>Propriedade Object-fit</h2>
+        <div class="d-flex">
+            <section class="container-img">
+                <img class="img" id="fill" src="https://sm.ign.com/ign_br/screenshot/default/imagem-2023-10-24-101457381_2ct1.jpg" alt="">
+            </section>
+            <section class="container-img">
+                <img class="img" id="contain" src="https://sm.ign.com/ign_br/screenshot/default/imagem-2023-10-24-101457381_2ct1.jpg" alt="">
+            </section>
+            <section class="container-img">
+                <img class="img" id="cover" src="https://sm.ign.com/ign_br/screenshot/default/imagem-2023-10-24-101457381_2ct1.jpg" alt="">
+            </section>
+            <section class="container-img">
+                <img class="img" id="none" src="https://sm.ign.com/ign_br/screenshot/default/imagem-2023-10-24-101457381_2ct1.jpg" alt="">
+            </section>
+            <section class="container-img">
+                <img class="img" id="scale-down" src="https://sm.ign.com/ign_br/screenshot/default/imagem-2023-10-24-101457381_2ct1.jpg" alt="">
+            </section>
+        </div>
+        <nav>
+            <ul>
+                <li>Fill: Muda a proporção da imagem original com base na Largura e Altura do elemento pai, ela se estica ou fica destorcida.</li>
+                <li>Contain: Ela vai ser redimensionada para caber no container.</li>
+                <li>Cover: A imagem vai preencher todo container cortando todo espaço da imagem que ultrapassa o espaço definido no elemento pai. </li>
+                <li>None:Vai ignorar toda altura e largura do elemento pai e fica com o valor de origem.</li>
+                <li>Scale Down: Vai escolher entre o valor Contain ou None, definindo qual imagem fica melhor nesse espaço.</li>
+            </ul>
+        </nav>
+        <hr>
+        <h2>Propriedade Object-position</h2>
+        <p>Posiciona a imagem utilando o Eixo Vertical e Horizontal <code>object-position: 10px 10px;</code></p>
+        <p>Podemos utilizar palavras chaves para posicionamento: <code>object-position: rigth top; object-position: left center;</code></p>
+        <div class="d-flex">
+            <section class="container-img">
+                <img class="img-position" id="cover" src="https://sm.ign.com/ign_br/screenshot/default/imagem-2023-10-24-101457381_2ct1.jpg" alt="">
+            </section>
+        </div>
+        <hr>
+        <h1>Aula Fundo dos elementos</h1>
+    </main>
+</body>
+</html>
