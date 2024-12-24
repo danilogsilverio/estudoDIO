@@ -47,6 +47,158 @@
         </div>
         <hr>
         <h1>Aula Fundo dos elementos</h1>
+        <div class="d-flex">
+            <section class="fundo"></section>
+            <section class="fundo" id="gradient"></section>
+            <section class="fundo" id="diferent"></section>
+            <section class="fundo" id="fundo-cover"></section>
+            <section class="fundo" id="fundo-contain"></section>
+            <section class="fundo" id="fundo-repeat"></section>
+        </div>
+        <p>Background attachment</p>
+        <div class="d-flex">
+            <section class="fundo2" id="fundo-repeat"></section>
+            <section class="fundo-exemplo" id="fixed">
+                <p>BACKGROUND ATTACHMENT FIXED
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                </p>
+            </section>
+            <section class="fundo-exemplo" id="local">
+                <p>BACKGROUND ATTACHMENT LOCAL
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                </p>
+            </section>
+            <section class="fundo-exemplo" id="scroll">
+                <p>BACKGROUND ATTACHMENT LOCAL
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur corrupti fugiat veniam voluptas. Cupiditate eos perspiciatis unde aut voluptatem eum sed ullam animi corporis sunt. Saepe quibusdam perferendis quas?
+                </p>
+            </section>
+        </div>
+        <p>Background origin</p>
+        <div class="d-flex">
+            <section class="fundo-exemplo2" id="padding-box"></section>
+            <section class="fundo-exemplo2" id="border-box"></section>
+            <section class="fundo-exemplo2" id="content-box"></section>
+        </div>
+        <p>Backgorund clip</p>
+        <div class="d-flex">
+            <section class="fundo-exemplo2 txt" id="padding-clip">
+                <h2 class="txt">AHHHHHHH</h2>
+            </section>
+        </div>
+        <section class="bg-propriedade">
+        </section>
+        <div>
+            <p>A propriedade background no CSS é uma das mais versáteis e amplamente utilizadas para definir o plano de fundo de um elemento HTML. Ela é uma propriedade abreviada, ou seja, permite configurar várias propriedades relacionadas ao fundo de um elemento de uma só vez. A seguir, vou descrever as propriedades que podem ser definidas com a propriedade background e seus respectivos valores.
+
+                1. background-color
+                Define a cor de fundo de um elemento.
+                
+                Valores possíveis:
+                
+                Cor: Pode ser qualquer valor válido de cor, como:
+                Nome de cor: red, blue, green
+                Valores hexadecimais: #ff0000, #00ff00
+                RGB: rgb(255, 0, 0), rgb(0, 255, 0)
+                RGBA (com opacidade): rgba(255, 0, 0, 0.5)
+                HSL: hsl(0, 100%, 50%)
+                HSLA: hsla(0, 100%, 50%, 0.5)
+                transparent: Define um fundo transparente.
+                2. background-image
+                Define uma ou mais imagens de fundo para o elemento. Pode ser uma imagem local ou de um URL.
+                
+                Valores possíveis:
+                
+                URL: Define o caminho para a imagem de fundo. Exemplo: url('imagem.jpg').
+                none: Remove qualquer imagem de fundo.
+                gradient: Define um gradiente como fundo. Exemplo: linear-gradient(to right, red, yellow).
+                3. background-position
+                Define a posição da imagem de fundo dentro do elemento. Pode ser especificado em pixels, porcentagem ou palavras-chave.
+                
+                Valores possíveis:
+                
+                Palavras-chave: top, center, bottom, left, right.
+                Comprimentos: px, em, rem, etc. (Exemplo: 50px 20px).
+                Porcentagem: Percentual relativo ao tamanho do elemento (Exemplo: 50% 50%).
+                4. background-size
+                Controla o tamanho da imagem de fundo.
+                
+                Valores possíveis:
+                
+                auto: Tamanho original da imagem.
+                cover: A imagem de fundo cobre toda a área do elemento, mantendo a proporção.
+                contain: A imagem de fundo é redimensionada para caber completamente dentro do elemento, mantendo a proporção.
+                Comprimentos: Especificação de larguras e alturas, como 100px 100px ou 50% 50%.
+                5. background-repeat
+                Define se a imagem de fundo deve se repetir.
+                
+                Valores possíveis:
+                
+                repeat: A imagem se repete tanto horizontal quanto verticalmente (padrão).
+                repeat-x: A imagem se repete apenas horizontalmente.
+                repeat-y: A imagem se repete apenas verticalmente.
+                no-repeat: A imagem não se repete.
+                6. background-attachment
+                Define como a imagem de fundo se comporta em relação ao rolar da página.
+                
+                Valores possíveis:
+                
+                scroll: A imagem de fundo rola com o conteúdo da página (padrão).
+                fixed: A imagem de fundo fica fixa enquanto o conteúdo rola.
+                local: A imagem de fundo rola com o conteúdo, mas é fixada dentro da área de rolagem do elemento.
+                7. background-clip
+                Define até onde a cor de fundo ou a imagem de fundo pode se estender dentro do elemento.
+                
+                Valores possíveis:
+                
+                border-box: A cor ou imagem de fundo se estende até a borda do elemento (padrão).
+                padding-box: A cor ou imagem de fundo se estende até a borda interna do preenchimento (padding).
+                content-box: A cor ou imagem de fundo se estende até a área de conteúdo (não inclui bordas ou preenchimento).
+                8. background-origin
+                Especifica a área onde o plano de fundo (imagem ou cor) começa. Determina o ponto de origem da imagem de fundo ou da cor.
+                
+                Valores possíveis:
+                
+                border-box: O fundo começa na borda do elemento (padrão).
+                padding-box: O fundo começa no interior do preenchimento (padding).
+                content-box: O fundo começa na área de conteúdo.
+                9. background
+                A propriedade background pode ser usada de forma abreviada para definir várias dessas propriedades de uma vez. A ordem e os valores são os seguintes:
+                
+                css
+                Copiar código
+                background: [background-color] [background-image] [background-position] [background-size] [background-repeat] [background-attachment] [background-origin] [background-clip];
+                Exemplo de uso abreviado:
+                
+                css
+                Copiar código
+                element {
+                  background: #ff0000 url('imagem.jpg') no-repeat center center fixed;
+                }
+                Resumo dos valores de background:
+                background-color: Cor de fundo (ex: #ff0000).
+                background-image: URL da imagem (ex: url('imagem.jpg')).
+                background-position: Posição da imagem (ex: center center).
+                background-size: Tamanho da imagem (ex: cover).
+                background-repeat: Como a imagem deve se repetir (ex: no-repeat).
+                background-attachment: Como a imagem rola (ex: fixed).
+                background-origin: Origem do fundo (ex: content-box).
+                background-clip: Área onde o fundo é desenhado (ex: padding-box).</p>
+        </div>
+        <hr>
+        <h1>Borda</h1>
     </main>
 </body>
 </html>

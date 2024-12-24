@@ -46,3 +46,113 @@ h1{
     height: 100%;
     object-position: 10px 10px;
 }
+
+/*------------FUNDO DOS ELEMENTOS------------*/
+
+.fundo{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+#gradient{
+    background-image: repeating-linear-gradient(blue 0 20px, rgb(124, 162, 231) 20px 40px);
+}
+
+#diferent {
+    --s: 82px; /* control the size*/
+    --c1: #b2b2b2;
+    --c2: #ffffff;
+    --c3: #d9d9d9;
+    
+    --_g: var(--c3) 0 120deg,#0000 0;
+    background:
+      conic-gradient(from -60deg at 50% calc(100%/3),var(--_g)),
+      conic-gradient(from 120deg at 50% calc(200%/3),var(--_g)),
+      conic-gradient(from  60deg at calc(200%/3),var(--c3) 60deg,var(--c2) 0 120deg,#0000 0),
+      conic-gradient(from 180deg at calc(100%/3),var(--c1) 60deg,var(--_g)),
+      linear-gradient(90deg,var(--c1)   calc(100%/6),var(--c2) 0 50%,
+                            var(--c1) 0 calc(500%/6),var(--c2) 0);
+    background-size: calc(1.732*var(--s)) var(--s);
+}
+
+#fundo-cover{
+    background-image: url("https://sm.ign.com/ign_br/screenshot/default/imagem-2023-10-24-101457381_2ct1.jpg");
+    background-size: cover;
+}
+
+#fundo-contain{
+    background-image: url("https://i.pinimg.com/736x/2b/fc/e9/2bfce9f9078e0225e3099603ae92558d.jpg");
+    background-size: contain;
+}
+
+#fundo-repeat{
+    background-image: url("https://i.pinimg.com/736x/2b/fc/e9/2bfce9f9078e0225e3099603ae92558d.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fundo2{
+    width: 300px;
+    height: 300px;
+    background-position: center top;
+}
+
+.fundo-exemplo{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuZgnS2KW7dJvb639p6Q8TRfi6lLa_96ebMKdcO4NEQEIaVYV1TO6dzc1uIC65nd1VC8I&usqp=CAU");
+    background-size: cover;
+    border: 1px solid blue;
+    overflow: auto;
+}
+
+#fixed{
+    background-attachment: fixed;
+}
+
+#local{
+    background-attachment: local;
+}
+
+#scroll{
+    background-attachment: scroll;
+}
+
+.fundo-exemplo2{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://img.odcdn.com.br/wp-content/uploads/2018/08/20180828132938.jpg");
+    background-size: cover;
+    border: 15px dashed rgb(217, 188, 0);
+    overflow: auto;
+}
+
+#paddind-box{
+    background-origin: padding-box;
+}
+
+#border-box{
+    background-origin: border-box;
+}
+
+#content-box{
+    background-origin: content-box;
+}
+
+#padding-clip{
+    background-clip: padding-box;
+}
+
+.txt{
+    -webkit-background-clip: text;
+    font-size: 40px;
+    color: transparent;
+    background-clip: text;
+}
+
+.bg-propriedade{ background: url("https://sm.ign.com/ign_pt/screenshot/y/yugi-was-t/yugi-was-the-first-to-ever-assemble-exodia-yami-yugi-eventua_y37y.jpg")/*Imagem*/ top center /*Position / size*/fixed /*attachment*/padding-box /*origin*/content-box /*clip*/color(red) /*color*/
+    ;
+}
+
+/*------------BORDA------------*/
