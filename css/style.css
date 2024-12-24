@@ -92,3 +92,67 @@ h1{
     background-repeat: no-repeat;
 }
 
+.fundo2{
+    width: 300px;
+    height: 300px;
+    background-position: center top;
+}
+
+.fundo-exemplo{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuZgnS2KW7dJvb639p6Q8TRfi6lLa_96ebMKdcO4NEQEIaVYV1TO6dzc1uIC65nd1VC8I&usqp=CAU");
+    background-size: cover;
+    border: 1px solid blue;
+    overflow: auto;
+}
+
+#fixed{
+    background-attachment: fixed;
+}
+
+#local{
+    background-attachment: local;
+}
+
+#scroll{
+    background-attachment: scroll;
+}
+
+.fundo-exemplo2{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://img.odcdn.com.br/wp-content/uploads/2018/08/20180828132938.jpg");
+    background-size: cover;
+    border: 15px dashed rgb(217, 188, 0);
+    overflow: auto;
+}
+
+#paddind-box{
+    background-origin: padding-box;
+}
+
+#border-box{
+    background-origin: border-box;
+}
+
+#content-box{
+    background-origin: content-box;
+}
+
+#padding-clip{
+    background-clip: padding-box;
+}
+
+.txt{
+    -webkit-background-clip: text;
+    font-size: 40px;
+    color: transparent;
+    background-clip: text;
+}
+
+.bg-propriedade{ background: url("https://sm.ign.com/ign_pt/screenshot/y/yugi-was-t/yugi-was-the-first-to-ever-assemble-exodia-yami-yugi-eventua_y37y.jpg")/*Imagem*/ top center /*Position / size*/fixed /*attachment*/padding-box /*origin*/content-box /*clip*/color(red) /*color*/
+    ;
+}
+
+/*------------BORDA------------*/
